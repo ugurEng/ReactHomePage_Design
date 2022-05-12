@@ -16,7 +16,7 @@ function MainSection() {
           <h6 className="main-text4">Let`s talk</h6>
           </div>
         </div >
-        <div class="image">sdiv
+        <div class="image">
         </div>
       </div>
       <div className='sdiv'>s</div>
