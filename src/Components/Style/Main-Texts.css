@@ -1,50 +1,80 @@
-.rr{
-    background-color: rgb(190, 190, 190);
-    display: flex;
+.main-text {
+  background-color: rgb(190, 190, 190);
+  display: flex;
+  margin-top: -20px;
+  padding-bottom:60px
 }
 
-.asd{
-    display: block;
+
+
+.main-text ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 40px;
 }
 
-.desc {
-    width:50%;
-    text-align:left;
-    padding:20px;
-    height: auto;
-    margin-top: 10px;
-    justify-content: center;
+.textfield {
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  height: auto;
+  margin-top: 10px;
+  justify-content: center;
+}
+.main-list {
+  width: 50%;
+  margin-top: 40px;
+}
+
+.textfield-field {
+  justify-content: center;
+  margin-left: 190px;
+}
+
+.main-paragraphs {
+  width: 70%;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.main-text1s {
+  color: rgb(195, 84, 84);
+  margin-top: 60px;
+}
+.main-text2s {
+  color: rgb(22, 41, 71);
+  margin-top: 30px;
  
-  }
-  
-  .justify{
-   
-    justify-content: center;
-    margin-left:190px
-  }
+}
+.main-text3s {
+  color: rgb(84, 85, 141);
+  margin-top:-25px
+}
+.main-text4s {
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+  width: fit-content;
+  margin-top: 20px;
+}
 
-  .main-paragraph{
-    width: 70%;
-    margin-top: 30px;
-    font-size:13px
-  }
+.main-list-brandmarketing{
+    display: flex;
+    text-align: start;
+}
 
-  .main-text1{
-    color: rgb(195, 84, 84);
-    margin-top: 60px;
-   
-  }
-  .main-text2{
-    color: rgb(22, 41, 71);
-    margin-top: 30px;
-  }
-  .main-text3{
-    color: rgb(84, 85, 141);
-  }
-  .main-text4{
-  
-    border-bottom: 2px solid red;
-    padding-bottom: 5px;
-    width: fit-content;
-    margin-top: 20px;
-  }
+.main-list-development{
+    text-align: start;
+}
+
+.main-list h2 {
+    font-size : 15px
+}
+.main-list li {
+    margin-top: 15px
+}
+
+.main-list-development h2 {
+    margin-top: 40px
+}
